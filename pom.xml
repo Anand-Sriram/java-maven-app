@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>hello-world-war</artifactId>
   <packaging>war</packaging>
-  <version>1.0.2</version>
+  <version>1.6.4</version>
   <name>hello world web Application Repository</name>
   <url>http://maven.apache.org</url>
   <dependencies>
