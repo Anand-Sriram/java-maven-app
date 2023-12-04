@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.2</version>
+  <version>1.6.4</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -67,7 +67,7 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.9.5]</version>
+                  <version>[3.5.4,)</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
@@ -79,18 +79,18 @@
  <repositories>
     <repository>
       <id>java-maven-app-group</id>
-      <url>http://52.66.229.115:8081/repository/java-maven-app-group/</url>
+      <url>http://18.130.215.104:8081/repository/java-maven-app-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>java-maven-app-snapshot</id>
-      <url>http://52.66.229.115:8081/repository/java-maven-app-snapshot/</url>
+      <id>java-maven-app-snapshots</id>
+      <url>http://18.130.215.104:8081/repository/java-maven-app-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>java-maven-app-release</id>
-      <url>http://52.66.229.115:8081/#browse/browse:java-maven-app-release</url>
+      <id>java-maven-app-releases</id>
+      <url>http://18.130.215.104:8081/#browse/browse:java-maven-app-releases/</url>
     </repository>
   </distributionManagement>
 </project>
